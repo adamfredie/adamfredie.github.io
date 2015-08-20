@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adam - Front-End Developer</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>Web journal. Writing about front-end development, web standards,  Responsive and mobile-first design.
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Aug 2015 22:19:22 +0530</pubDate>
-    <lastBuildDate>Mon, 17 Aug 2015 22:19:22 +0530</lastBuildDate>
+    <pubDate>Fri, 21 Aug 2015 01:45:02 +0530</pubDate>
+    <lastBuildDate>Fri, 21 Aug 2015 01:45:02 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -39,30 +39,105 @@
       </item>
     
       <item>
-        <title>This is a test post</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Node.js Land</title>
+        <description>&lt;h1 id=&quot;crud-in-nodejs-land&quot;&gt;CRUD in Node.js Land&lt;/h1&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Now that I know what &lt;strong&gt;&lt;a href=&quot;nodejs.org&quot;&gt;Node.js&lt;/a&gt;&lt;/strong&gt; can do, I feel like I  was living in a stone age of some sorts.””&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My recent internship at &lt;strong&gt;&lt;a href=&quot;axelerant.com&quot;&gt;Axelerant&lt;/a&gt;&lt;/strong&gt;, where I worked with their front-end architect Bassam Ismail, (along with a friend, who is also co-authoring this post, and was interning there as well) taught me a lot that I didn’t know before. I knew JavaScript was turning things around and making PHP look like a smelly cat but not like this.&lt;/p&gt;
 
+&lt;h3 id=&quot;nodejs&quot;&gt;Node.js&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“There’s nothing else involved there but JavaScript to create an environment to run real-time web applications.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I am not an expert on Node.js but I know a fair amount about the platform. Node.js is an environment for server-side and networking applications, written in only JavaScript. And that’s the most wonderful part! There’s nothing else involved there but JavaScript to create an environment to run real-time web applications. It works across all major platforms like OS X, Microsoft Windows, Linux, etc and provides an API which we can use to build web applications with much less effort as compared to what PHP has to offer.  Installing node is very easy. You can check the &lt;strong&gt;&lt;a href=&quot;https://nodejs.org/api/&quot;&gt;Node.js API&lt;/a&gt;&lt;/strong&gt; to find out more and so much more about it.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo apt-get install nodejs&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Including (or requiring) a module in Node is very easy. You just require the app in your app.js file where most of your logic is written and then use the functions from that module right in that file. Here’s an example of how to require modules in node:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;express&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;express&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// imports the express module&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In the above example we have required the express framework that includes the express module in our project. 
+We built the app on top of Node using the &lt;strong&gt;&lt;a href=&quot;http://expressjs.com/&quot;&gt;Express&lt;/a&gt;&lt;/strong&gt; web framework for making web applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;npm&quot;&gt;NPM&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;npmjs.com&quot;&gt;NPM&lt;/a&gt;&lt;/strong&gt; stands for Node Package Manager and that’s what you use to install packages and modules that are written in JavaScript and for Node.js. It’s like &lt;a href=&quot;bower.io&quot;&gt;bower&lt;/a&gt; but it works with Node. It automatically updates each package that you have installed and updates the package.json file with the versions of the installed packages.
+This tool is indispensable to anyone who uses Node.&lt;/p&gt;
+
+&lt;p&gt;Installing packages using NPM was as simple as&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;npm install package-name&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This will install the package in your current folder or you could use -g to install it globally.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;npm install package-name&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;During the internship we used Node.js to create a full, working CRUD app and called the project Janus Blog (which we turned into a blogging app). Instead of using SASS, we used Stylus to style the front-end and the experience while writing code with Stylus was so much better and convenient than SASS. I am not talking about the negative effect of convenience where you get lazy and let the software do everything for you. What Stylus did was that it automatically made us write clean and better managed code. You cannot get that from SASS. That’s the power of Stylus. The Python-like indentation seemed uncomfortable to me at first but after a while I started enjoying writing with it.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;tools-and-services&quot;&gt;Tools and Services&lt;/h3&gt;
+
+&lt;p&gt;All the development work was done on Mac and Ubuntu machines and hosted on GitHub. We used the following tools while working with Node.js :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Node.js: Check their API at &lt;strong&gt;&lt;a href=&quot;nodejs.org&quot;&gt;Node’s website&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;ExpressJS: web applications framework&lt;/li&gt;
+  &lt;li&gt;NPM: To install and manage the following packages.
+    &lt;ul&gt;
+      &lt;li&gt;Express&lt;/li&gt;
+      &lt;li&gt;Jade&lt;/li&gt;
+      &lt;li&gt;Mongoose&lt;/li&gt;
+      &lt;li&gt;Morgan&lt;/li&gt;
+      &lt;li&gt;basicAuth&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You can check the list of packages used in the &lt;strong&gt;&lt;a href=&quot;https://github.com/adamfredie/blogger/blob/master/package.json&quot;&gt;package.json&lt;/a&gt;&lt;/strong&gt; 
+file on my GitHub.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sublime Text/VIM&lt;/li&gt;
+  &lt;li&gt;Stylus: We used some plugins for stylus
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/jenius/rupture&quot;&gt;Rupture&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/tj/nib&quot;&gt;nib&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;GitHub&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I can’t explain each and every tool and module that we used for the sake of this post. You can google all of them and find amazing documentation explaining everything.&lt;/p&gt;
+
+&lt;p&gt;The code base for the app we created is &lt;a href=&quot;https://github.com/adamfredie/blogger&quot;&gt;available here&lt;/a&gt; on Github and can be used straight from there without any changes unless you want to fork and improve the app.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This post was co-authored by &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#109;&amp;#097;&amp;#097;&amp;#106;&amp;#105;&amp;#100;&amp;#122;&amp;#064;&amp;#121;&amp;#097;&amp;#104;&amp;#111;&amp;#111;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;Abdul Majid&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 13 Aug 2015 22:36:28 +0530</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/08/13/Post-Number-One.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/08/13/Post-Number-One.html</guid>
+        <link>http://yourdomain.com/review/2015/08/13/Node.js-Land.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/review/2015/08/13/Node.js-Land.html</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>review</category>
         
       </item>
     
