@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Node.js Land"
+title:  "Node Land"
 date:   2015-08-13 17:06:28
 categories: review
 ---
@@ -8,7 +8,7 @@ categories: review
 
 <br />
 
->"Now that I know what **[Node.js](nodejs.org)** can do, I feel like I  was living in a stone age of some sorts.""
+>"Now that I know what **[Node.js](nodejs.org)** can do, I feel like I  was living in a stone age of some sorts."
 
 <br />
 
@@ -52,7 +52,7 @@ Installing packages using NPM was as simple as
 
 This will install the package in your current folder or you could use -g to install it globally. 
 
-`npm install package-name`
+`npm install package-name -g`
 
 During the internship we used Node.js to create a full, working CRUD app and called the project Janus Blog (which we turned into a blogging app). Instead of using SASS, we used Stylus to style the front-end and the experience while writing code with Stylus was so much better and convenient than SASS. I am not talking about the negative effect of convenience where you get lazy and let the software do everything for you. What Stylus did was that it automatically made us write clean and better managed code. You cannot get that from SASS. That's the power of Stylus. The Python-like indentation seemed uncomfortable to me at first but after a while I started enjoying writing with it.
 
