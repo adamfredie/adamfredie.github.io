@@ -26,7 +26,7 @@ I am not an expert on Node.js but I know a fair amount about the platform. Node.
 
 `sudo apt-get install nodejs`
 
-Including (or requiring) a module in Node is very easy. You just require the app in your app.js file where most of your logic is written and then use the functions from that module right in that file. Here's an example of how to require modules in node:
+Including (or requiring) a module in Node is very easy. You just require the app in your app.js file where most of your logic is written and then use the functions from that module right in that file. Here's an example of how to require modules in Node:
 
 {% highlight javascript %}
 
