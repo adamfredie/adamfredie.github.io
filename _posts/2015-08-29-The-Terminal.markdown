@@ -17,7 +17,7 @@ categories: review
 
 <br />
 
-Linux is a great OS for a developer. It's great for your coding needs and comes with so many features for a programmer, it's not even funny. I am probably very, very late in interacting with a Unix-like system but it's better late than never. 
+Linux is a great OS for a developer. It's great for your coding needs and comes with a lot of features which you require for writing code. I am probably very, very late in interacting with a Unix-like system but it's better late than never. 
 
 In this post, I have written about my experience so far with one of Linux's most important tools, the Terminal.
 
@@ -144,9 +144,9 @@ You just need to start with the basics (there is lot of documentation for settin
 
 ### All about the feeling.
 
-When you work with a command line, it automatically makes you feel like you aren't doing what every regular conputer user can do -- Clciking away buttons and icons to get the job done. You are doing all your work by just writing a few lines of text in one window (making you feel more like a real programmer and less of a button-clicking-baboon). And that's extraordinary.
+When you work with a command line, it automatically makes you feel like you aren't doing what every regular conputer user can do -- Clicking away buttons and icons to get the job done. You are doing all your work by just writing a few lines of text in one window (making you feel more like a real programmer and less of a button-clicking-baboon). And that's extraordinary.
 
 <br />
 
-###### P.S - My terminal looks different than how a native Ubuntu terminal window would look because I have reconfigured the shell and changed its behaviour and appearance a little. You can find my dotfiles here <add github link>
+###### P.S - My terminal looks different than how a native Ubuntu terminal window would look because I have reconfigured the shell and changed its behaviour and appearance a little. You can find my dotfiles [here](https://github.com/adamfredie/dotfiles)
 

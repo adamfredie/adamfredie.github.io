@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 29 Aug 2015 18:39:00 +0530</pubDate>
-    <lastBuildDate>Sat, 29 Aug 2015 18:39:00 +0530</lastBuildDate>
+    <pubDate>Sat, 29 Aug 2015 18:53:59 +0530</pubDate>
+    <lastBuildDate>Sat, 29 Aug 2015 18:53:59 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -26,7 +26,7 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Linux is a great OS for a developer. It’s great for your coding needs and comes with so many features for a programmer, it’s not even funny. I am probably very, very late in interacting with a Unix-like system but it’s better late than never.&lt;/p&gt;
+&lt;p&gt;Linux is a great OS for a developer. It’s great for your coding needs and comes with a lot of features which you require for writing code. I am probably very, very late in interacting with a Unix-like system but it’s better late than never.&lt;/p&gt;
 
 &lt;p&gt;In this post, I have written about my experience so far with one of Linux’s most important tools, the Terminal.&lt;/p&gt;
 
@@ -157,11 +157,11 @@ For example, as a web developer, you may have to lookup the whois database some 
 
 &lt;h3 id=&quot;all-about-the-feeling&quot;&gt;All about the feeling.&lt;/h3&gt;
 
-&lt;p&gt;When you work with a command line, it automatically makes you feel like you aren’t doing what every regular conputer user can do – Clciking away buttons and icons to get the job done. You are doing all your work by just writing a few lines of text in one window (making you feel more like a real programmer and less of a button-clicking-baboon). And that’s extraordinary.&lt;/p&gt;
+&lt;p&gt;When you work with a command line, it automatically makes you feel like you aren’t doing what every regular conputer user can do – Clicking away buttons and icons to get the job done. You are doing all your work by just writing a few lines of text in one window (making you feel more like a real programmer and less of a button-clicking-baboon). And that’s extraordinary.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h6 id=&quot;ps---my-terminal-looks-different-than-how-a-native-ubuntu-terminal-window-would-look-because-i-have-reconfigured-the-shell-and-changed-its-behaviour-and-appearance-a-little-you-can-find-my-dotfiles-here-add-github-link&quot;&gt;P.S - My terminal looks different than how a native Ubuntu terminal window would look because I have reconfigured the shell and changed its behaviour and appearance a little. You can find my dotfiles here &lt;add github=&quot;&quot; link=&quot;&quot;&gt;&lt;/add&gt;&lt;/h6&gt;
+&lt;h6 id=&quot;ps---my-terminal-looks-different-than-how-a-native-ubuntu-terminal-window-would-look-because-i-have-reconfigured-the-shell-and-changed-its-behaviour-and-appearance-a-little-you-can-find-my-dotfiles-herehttpsgithubcomadamfrediedotfiles&quot;&gt;P.S - My terminal looks different than how a native Ubuntu terminal window would look because I have reconfigured the shell and changed its behaviour and appearance a little. You can find my dotfiles &lt;a href=&quot;https://github.com/adamfredie/dotfiles&quot;&gt;here&lt;/a&gt;&lt;/h6&gt;
 
 </description>
         <pubDate>Sat, 29 Aug 2015 18:25:28 +0530</pubDate>
