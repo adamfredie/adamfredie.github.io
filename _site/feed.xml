@@ -4,11 +4,174 @@
     <title>Adam - Front-End Developer</title>
     <description>Web journal. Writing about front-end development, web standards,  Responsive and mobile-first design.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Aug 2015 19:37:20 +0530</pubDate>
-    <lastBuildDate>Wed, 26 Aug 2015 19:37:20 +0530</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 29 Aug 2015 18:39:00 +0530</pubDate>
+    <lastBuildDate>Sat, 29 Aug 2015 18:39:00 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>The Terminal</title>
+        <description>&lt;h1 id=&quot;command-line-through-the-terminal&quot;&gt;Command line through the Terminal&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;note---all-commands-in-this-post-are-from-an-ubuntu-machine-and-may-or-may-not-work-on-other-linux-distros&quot;&gt;Note - All commands in this post are from an Ubuntu machine and may or may not work on other Linux distros.&lt;/h5&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I was an active Windows user until I switched to Linux (Ubuntu in my case). And I haven’t looked back eversince.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Linux is a great OS for a developer. It’s great for your coding needs and comes with so many features for a programmer, it’s not even funny. I am probably very, very late in interacting with a Unix-like system but it’s better late than never.&lt;/p&gt;
+
+&lt;p&gt;In this post, I have written about my experience so far with one of Linux’s most important tools, the Terminal.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/terminal.jpg&quot; class=&quot;scrnshts&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;terminal&quot;&gt;Terminal&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The functionality a terminal window provides is one of the reasons I switched to Ubuntu.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The use case of a terminal is different from how one would use a GUI. With GUI, you get a more detailed layout where the graphics are self-explanatory. Because of that you can make a more complex interface for users to interact with.&lt;/p&gt;
+
+&lt;p&gt;With command line, since there are no visuals for a layout, you do your work by just running text-based commands in the terminal window and get an output right there.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/node.gif&quot; class=&quot;scrnshts&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-and-how&quot;&gt;What and How?&lt;/h3&gt;
+
+&lt;p&gt;A terminal is basically a plain window with text and a blinking cursor and what you do with just those elements is what it’s all about. Honestly, this scared me initially because I simply had no idea about how it worked. My mind would ask questions like -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What do I do, there’s nothing to click!&lt;/li&gt;
+  &lt;li&gt;How do I find files with this thing?&lt;/li&gt;
+  &lt;li&gt;How the hell am I going to remember so many commands!!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But once I started picking up on the basics, I felt more comfortable using a command line interface. And now, after a few weeks, I use the terminal to do almost everything on my computer. I even download YouTube videos with it!!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;terminal-commands&quot;&gt;Terminal Commands&lt;/h3&gt;
+
+&lt;h4 id=&quot;basics&quot;&gt;&lt;strong&gt;- Basics&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;Run &lt;code&gt;ls&lt;/code&gt; from your current directory and it will display all files present in that directory.
+Since I use Ubuntu, here are some more basic commands that you can run in a terminal window -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Navigation
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code&gt;cd foldername&lt;/code&gt; (navigate to said folder)&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;cd ..&lt;/code&gt; (go to current folder’s parent folder)&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;cd --&lt;/code&gt; (go straight to home where all your folders (Desktop, Videos, etc) reside)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Create/Edit/Destroy
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code&gt;mkdir articles&lt;/code&gt; (make new ‘articles’ directory)&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;touch example.txt&lt;/code&gt; (create a new example.txt file)&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;vim example.txt&lt;/code&gt; (open the file from current folder in &lt;em&gt;vim&lt;/em&gt; editor)&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;rm example.txt&lt;/code&gt; (remove file)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;slightly-advanced-commands&quot;&gt;&lt;strong&gt;- Slightly Advanced Commands&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Install/Remove
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code&gt;sudo apt-get install packagename&lt;/code&gt; (Install a package)&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;sudo apt-get remove packagename&lt;/code&gt; (remove said package)&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;sudo apt-get update&lt;/code&gt;	(update all packages)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The &lt;code&gt;sudo apt-get update&lt;/code&gt; command will check all your listed repos and update all the packages from those repos with just one command. That is how simple and fast command line is!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/sudo-update.jpg&quot; class=&quot;scrnshts&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Same goes for installing/removing packages. All it takes is a &lt;code&gt;sudo apt-get&lt;/code&gt;. Obviously there’s a lot more these commands can do but that’s not what this post is entirely about.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;utilities-and-development&quot;&gt;Utilities and Development&lt;/h3&gt;
+
+&lt;p&gt;There are a lot of utilities which you can use to make your work easier and faster.
+For example, as a web developer, you may have to lookup the whois database some times to check some information. Here’s how you could do it from the terminal -&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;whois github.io&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/whois.jpg&quot; class=&quot;scrnshts&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Although you will need to install the ‘whois’ package first)&lt;/p&gt;
+
+&lt;p&gt;What if you have to work in Node and use Stylus for your CSS? No problemo!&lt;/p&gt;
+
+&lt;p&gt;Just run &lt;code&gt;sudo apt-get install nodejs&lt;/code&gt; &amp;amp; &lt;code&gt;npm install stylus -g&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;npmjs.com&quot;&gt;NPM&lt;/a&gt;&lt;/strong&gt; (&lt;em&gt;Node Package Manager&lt;/em&gt;) is another utility which keeps track of your package versions and updates them.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;why-should-someone-use-the-terminal&quot;&gt;Why should someone use the terminal?&lt;/h3&gt;
+
+&lt;p&gt;If you are a developer or an indivisual who wants to write code, irrespective of which language you choose, you should, in my opinon, start using command line in your work and notice how much time you’ll save and how much faster your work will get done.&lt;/p&gt;
+
+&lt;p&gt;Just like there are best practice methods about using such and such languages, using the terminal is also a best practice method for any good programmer.&lt;/p&gt;
+
+&lt;p&gt;Besides, if you really want to be a good programmer, you can’t escape the terminal. For every programming language (&lt;strong&gt;&lt;em&gt;JavaScript&lt;/em&gt;&lt;/strong&gt;), it’s frameworks (&lt;strong&gt;&lt;em&gt;Node&lt;/em&gt;&lt;/strong&gt;), it’s libraries (&lt;strong&gt;&lt;em&gt;Express&lt;/em&gt;&lt;/strong&gt;) and everything else are installed through a terminal.&lt;/p&gt;
+
+&lt;p&gt;You just need to start with the basics (there is lot of documentation for setting up and getting started with a command line) and soon you’‘ll be installing languages, editing files, running servers and downloading videos from YouTube in no time!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;all-about-the-feeling&quot;&gt;All about the feeling.&lt;/h3&gt;
+
+&lt;p&gt;When you work with a command line, it automatically makes you feel like you aren’t doing what every regular conputer user can do – Clciking away buttons and icons to get the job done. You are doing all your work by just writing a few lines of text in one window (making you feel more like a real programmer and less of a button-clicking-baboon). And that’s extraordinary.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;ps---my-terminal-looks-different-than-how-a-native-ubuntu-terminal-window-would-look-because-i-have-reconfigured-the-shell-and-changed-its-behaviour-and-appearance-a-little-you-can-find-my-dotfiles-here-add-github-link&quot;&gt;P.S - My terminal looks different than how a native Ubuntu terminal window would look because I have reconfigured the shell and changed its behaviour and appearance a little. You can find my dotfiles here &lt;add github=&quot;&quot; link=&quot;&quot;&gt;&lt;/add&gt;&lt;/h6&gt;
+
+</description>
+        <pubDate>Sat, 29 Aug 2015 18:25:28 +0530</pubDate>
+        <link>http://localhost:4000/review/2015/08/29/The-Terminal.html</link>
+        <guid isPermaLink="true">http://localhost:4000/review/2015/08/29/The-Terminal.html</guid>
+        
+        
+        <category>review</category>
+        
+      </item>
     
       <item>
         <title>Node Land</title>
@@ -108,8 +271,8 @@ file on my GitHub.&lt;/p&gt;
 &lt;!-- #f26922 Ax --&gt;
 </description>
         <pubDate>Thu, 13 Aug 2015 22:36:28 +0530</pubDate>
-        <link>http://yourdomain.com/review/2015/08/13/Node.js-Land.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/review/2015/08/13/Node.js-Land.html</guid>
+        <link>http://localhost:4000/review/2015/08/13/Node.js-Land.html</link>
+        <guid isPermaLink="true">http://localhost:4000/review/2015/08/13/Node.js-Land.html</guid>
         
         
         <category>review</category>

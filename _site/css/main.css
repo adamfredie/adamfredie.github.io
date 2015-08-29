@@ -91,9 +91,10 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid #afafaf;
+  border: 1px solid #b56464;
   border-radius: 3px;
-  background-color: #eef; }
+  background-color: #000000;
+  color: #ffffff; }
 
 code {
   padding: 1px 5px; }
@@ -110,16 +111,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(1200px - (30px * 2));
-  max-width: calc(1200px - (30px * 2));
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(1200px - (30px));
-      max-width: calc(1200px - (30px));
+      max-width: -webkit-calc(800px - (30px));
+      max-width: calc(800px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -164,6 +165,16 @@ pre {
   border-radius: 999px;
   height: 150px;
   float: right; }
+
+.scrnshts {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 1px 26px 100px -30px #000;
+  -moz-box-shadow: 1px 26px 100px -30px #000;
+  -ms-box-shadow: 1px 26px 100px -30px #000;
+  box-shadow: 1px 26px 100px -30px #000; }
 
 .svg-icon-list {
   margin: auto;
@@ -271,7 +282,7 @@ pre {
   width: -webkit-calc(45% - (30px / 2));
   width: calc(45% - (30px / 2)); }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (30px / 2));
@@ -324,7 +335,7 @@ pre {
   font: 700 4rem Lato, Helvetica, Arial, "sans-serif";
   color: #b56464;
   text-align: center; }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 800px) {
     .post-title {
       font-size: 36px; } }
 
@@ -332,17 +343,17 @@ pre {
   margin-bottom: 30px; }
   .post-content h2 {
     font-size: 32px; }
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 800px) {
       .post-content h2 {
         font-size: 28px; } }
   .post-content h3 {
     font-size: 26px; }
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 800px) {
       .post-content h3 {
         font-size: 22px; } }
   .post-content h4 {
     font-size: 20px; }
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 18px; } }
 

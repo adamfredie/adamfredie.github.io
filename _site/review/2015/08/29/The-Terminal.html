@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>The Terminal</title>
+  <meta name="description" content="Command line through the Terminal">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="shortcut icon" type="iamge/x-icon" href="/images/favicon.png">
+  <link rel="canonical" href="http://localhost:4000/review/2015/08/29/The-Terminal.html">
+  <link rel="alternate" type="application/rss+xml" title="Adam - Front-End Developer" href="http://localhost:4000/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <ul class="nav-links-wrap">
+            <li class="nav-links">
+              <a class="page-link" href="/contact/">Contact</a>
+            </li>
+          </ul>   
+          
+        
+          
+          <ul class="nav-links-wrap">
+            <li class="nav-links">
+              <a class="page-link" href="/about/">About</a>
+            </li>
+          </ul>   
+          
+        
+          
+          <ul class="nav-links-wrap">
+            <li class="nav-links">
+              <a class="page-link" href="/blog/">Blog</a>
+            </li>
+          </ul>   
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+
+    <div class="myphoto">
+      <a href="/">
+        <img src="/images/adam.jpg" class="adam-photo" alt="">
+      </a>
+    </div>  
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">The Terminal</h1>
+    <p class="post-meta post-metadata">Aug 29, 2015</p>
+  </header>
+
+  <article class="post-content">
+    <h1 id="command-line-through-the-terminal">Command line through the Terminal</h1>
+
+<p><br /></p>
+
+<h5 id="note---all-commands-in-this-post-are-from-an-ubuntu-machine-and-may-or-may-not-work-on-other-linux-distros">Note - All commands in this post are from an Ubuntu machine and may or may not work on other Linux distros.</h5>
+
+<p><br /></p>
+
+<blockquote>
+  <p>“I was an active Windows user until I switched to Linux (Ubuntu in my case). And I haven’t looked back eversince.”</p>
+</blockquote>
+
+<p><br /></p>
+
+<p>Linux is a great OS for a developer. It’s great for your coding needs and comes with so many features for a programmer, it’s not even funny. I am probably very, very late in interacting with a Unix-like system but it’s better late than never.</p>
+
+<p>In this post, I have written about my experience so far with one of Linux’s most important tools, the Terminal.</p>
+
+<p><br /></p>
+
+<p><img src="/images/terminal.jpg" class="scrnshts" /></p>
+
+<p><br /></p>
+
+<p><br /></p>
+
+<h3 id="terminal">Terminal</h3>
+
+<blockquote>
+  <p>“The functionality a terminal window provides is one of the reasons I switched to Ubuntu.”</p>
+</blockquote>
+
+<p>The use case of a terminal is different from how one would use a GUI. With GUI, you get a more detailed layout where the graphics are self-explanatory. Because of that you can make a more complex interface for users to interact with.</p>
+
+<p>With command line, since there are no visuals for a layout, you do your work by just running text-based commands in the terminal window and get an output right there.</p>
+
+<p><br /></p>
+
+<p><img src="/images/node.gif" class="scrnshts" /></p>
+
+<p><br /></p>
+
+<h3 id="what-and-how">What and How?</h3>
+
+<p>A terminal is basically a plain window with text and a blinking cursor and what you do with just those elements is what it’s all about. Honestly, this scared me initially because I simply had no idea about how it worked. My mind would ask questions like -</p>
+
+<ul>
+  <li>What do I do, there’s nothing to click!</li>
+  <li>How do I find files with this thing?</li>
+  <li>How the hell am I going to remember so many commands!!</li>
+</ul>
+
+<p>But once I started picking up on the basics, I felt more comfortable using a command line interface. And now, after a few weeks, I use the terminal to do almost everything on my computer. I even download YouTube videos with it!!</p>
+
+<p><br /></p>
+
+<h3 id="terminal-commands">Terminal Commands</h3>
+
+<h4 id="basics"><strong>- Basics</strong></h4>
+
+<p>Run <code>ls</code> from your current directory and it will display all files present in that directory.
+Since I use Ubuntu, here are some more basic commands that you can run in a terminal window -</p>
+
+<ul>
+  <li>Navigation
+    <ul>
+      <li><code>cd foldername</code> (navigate to said folder)</li>
+      <li><code>cd ..</code> (go to current folder’s parent folder)</li>
+      <li><code>cd --</code> (go straight to home where all your folders (Desktop, Videos, etc) reside)</li>
+    </ul>
+  </li>
+  <li>Create/Edit/Destroy
+    <ul>
+      <li><code>mkdir articles</code> (make new ‘articles’ directory)</li>
+      <li><code>touch example.txt</code> (create a new example.txt file)</li>
+      <li><code>vim example.txt</code> (open the file from current folder in <em>vim</em> editor)</li>
+      <li><code>rm example.txt</code> (remove file)</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="slightly-advanced-commands"><strong>- Slightly Advanced Commands</strong></h4>
+
+<ul>
+  <li>Install/Remove
+    <ul>
+      <li><code>sudo apt-get install packagename</code> (Install a package)</li>
+      <li><code>sudo apt-get remove packagename</code> (remove said package)</li>
+      <li><code>sudo apt-get update</code>	(update all packages)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The <code>sudo apt-get update</code> command will check all your listed repos and update all the packages from those repos with just one command. That is how simple and fast command line is!</p>
+
+<p><br /></p>
+
+<p><img src="/images/sudo-update.jpg" class="scrnshts" /></p>
+
+<p><br />
+<br /></p>
+
+<p>Same goes for installing/removing packages. All it takes is a <code>sudo apt-get</code>. Obviously there’s a lot more these commands can do but that’s not what this post is entirely about.</p>
+
+<p><br /></p>
+
+<h3 id="utilities-and-development">Utilities and Development</h3>
+
+<p>There are a lot of utilities which you can use to make your work easier and faster.
+For example, as a web developer, you may have to lookup the whois database some times to check some information. Here’s how you could do it from the terminal -</p>
+
+<p><code>whois github.io</code></p>
+
+<p><br /></p>
+
+<p><img src="/images/whois.jpg" class="scrnshts" /></p>
+
+<p><br /></p>
+
+<p><br /></p>
+
+<p>(Although you will need to install the ‘whois’ package first)</p>
+
+<p>What if you have to work in Node and use Stylus for your CSS? No problemo!</p>
+
+<p>Just run <code>sudo apt-get install nodejs</code> &amp; <code>npm install stylus -g</code>.</p>
+
+<p><strong><a href="npmjs.com">NPM</a></strong> (<em>Node Package Manager</em>) is another utility which keeps track of your package versions and updates them.</p>
+
+<p><br /></p>
+
+<h3 id="why-should-someone-use-the-terminal">Why should someone use the terminal?</h3>
+
+<p>If you are a developer or an indivisual who wants to write code, irrespective of which language you choose, you should, in my opinon, start using command line in your work and notice how much time you’ll save and how much faster your work will get done.</p>
+
+<p>Just like there are best practice methods about using such and such languages, using the terminal is also a best practice method for any good programmer.</p>
+
+<p>Besides, if you really want to be a good programmer, you can’t escape the terminal. For every programming language (<strong><em>JavaScript</em></strong>), it’s frameworks (<strong><em>Node</em></strong>), it’s libraries (<strong><em>Express</em></strong>) and everything else are installed through a terminal.</p>
+
+<p>You just need to start with the basics (there is lot of documentation for setting up and getting started with a command line) and soon you’‘ll be installing languages, editing files, running servers and downloading videos from YouTube in no time!</p>
+
+<p><br /></p>
+
+<h3 id="all-about-the-feeling">All about the feeling.</h3>
+
+<p>When you work with a command line, it automatically makes you feel like you aren’t doing what every regular conputer user can do – Clciking away buttons and icons to get the job done. You are doing all your work by just writing a few lines of text in one window (making you feel more like a real programmer and less of a button-clicking-baboon). And that’s extraordinary.</p>
+
+<p><br /></p>
+
+<h6 id="ps---my-terminal-looks-different-than-how-a-native-ubuntu-terminal-window-would-look-because-i-have-reconfigured-the-shell-and-changed-its-behaviour-and-appearance-a-little-you-can-find-my-dotfiles-here-add-github-link">P.S - My terminal looks different than how a native Ubuntu terminal window would look because I have reconfigured the shell and changed its behaviour and appearance a little. You can find my dotfiles here <add github="" link=""></add></h6>
+
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+      <div class="footer-content">
+        <ul class="social-media-list svg-icon-list">
+          
+          <li class="social-icons">
+            <a href="https://github.com/adamfredie">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#333" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <!-- <span class="username">adamfredie</span> -->
+            </a>
+          </li>
+          
+
+          <!--  -->
+          <li class="social-icons">
+            <a href="https://twitter.com/adamfredie">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#55acee" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <!-- <span class="username">adamfredie</span> -->
+            </a>
+          </li>
+          <!--  -->
+          <li class="social-icons">
+            <a href="mailto:whackyapple@gmail.com?subject=Work">
+              <span class="icon icon-mailpaperplane">
+                <svg viewBox="0 0 1024 1024">
+                  <path fill="#333" class="path1" d="M1009.376 5.12c-5.312-3.424-11.36-5.12-17.376-5.12-6.176 0-12.384 1.76-17.76 5.376l-960 640c-9.888 6.56-15.328 18.112-14.048 29.952 1.216 11.808 8.896 22.016 19.936 26.368l250.368 100.192 117.728 206.016c5.632 9.888 16.096 16 27.424 16.128 0.128 0 0.224 0 0.352 0 11.232 0 21.664-5.952 27.424-15.552l66.464-110.816 310.24 124.064c3.808 1.536 7.808 2.272 11.872 2.272 5.44 0 10.816-1.376 15.68-4.128 8.448-4.736 14.24-13.056 15.872-22.624l160-960c2.080-12.576-3.488-25.184-14.176-32.128zM100.352 664.864l741.6-494.432-539.2 577.184c-2.848-1.696-5.376-3.936-8.512-5.184l-193.888-77.568zM326.048 770.112c-0.064-0.128-0.16-0.192-0.224-0.32l606.176-648.8-516.768 805.184-89.184-156.064zM806.944 947.488l-273.312-109.312c-6.496-2.56-13.248-3.424-19.936-3.808l420.864-652.416-127.616 765.536z"/>
+                </svg>
+              </span>
+            </a>
+          </li>
+        </ul>
+        <p class="copyright">
+          site design/logo © 2015 - Adam Fredie
+        </p>
+      </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

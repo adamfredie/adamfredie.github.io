@@ -129,9 +129,10 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $brand-color;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 code {

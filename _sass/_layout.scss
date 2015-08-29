@@ -38,6 +38,11 @@
     float: right;
 }
 
+.scrnshts  {
+    @include border-radius(8px); 
+    @include box-shadow(1px, 26px, 100px, -30px, #000);
+}
+
 .svg-icon-list {
     margin: auto;
     padding: 0;

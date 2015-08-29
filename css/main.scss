@@ -49,7 +49,19 @@ $on-laptop:        800px;
     }
 }
 
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
 
+@mixin box-shadow($top, $left, $blur, $spread, $color) {
+  -webkit-box-shadow: $top $left $blur $spread $color;
+     -moz-box-shadow: $top $left $blur $spread $color;
+      -ms-box-shadow: $top $left $blur $spread $color;
+          box-shadow: $top $left $blur $spread $color;
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
