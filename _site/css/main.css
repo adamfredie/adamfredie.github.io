@@ -148,9 +148,6 @@ pre {
   min-height: 56px;
   padding-top: 2rem;
   position: relative; }
-  @media screen and (max-width: 600px) {
-    .site-header {
-      padding-top: 0; } }
 
 .site-title {
   font-size: 26px;
@@ -198,9 +195,9 @@ pre {
 .site-nav {
   float: left;
   line-height: 56px;
-  margin-top: 16px;
+  margin-top: 5%;
   font-weight: 400;
-  font-size: 1.5rem; }
+  font-size: 1rem; }
   .site-nav .menu-icon {
     display: none; }
   .site-nav ul {
@@ -212,38 +209,6 @@ pre {
     list-style: none; }
     .site-nav .nav-links:not(:first-child) {
       margin-left: 0px; }
-  @media screen and (max-width: 600px) {
-    .site-nav {
-      position: absolute;
-      top: 9px;
-      left: 30px;
-      background-color: #fdfdfd;
-      border: 1px solid #afafaf;
-      border-radius: 5px;
-      text-align: left;
-      margin-top: 0; }
-      .site-nav .menu-icon {
-        display: block;
-        float: left;
-        width: 36px;
-        height: 26px;
-        line-height: 0;
-        padding-top: 10px;
-        text-align: center; }
-        .site-nav .menu-icon > svg {
-          width: 18px;
-          height: 15px; }
-          .site-nav .menu-icon > svg path {
-            fill: #090909; }
-      .site-nav .trigger {
-        clear: both;
-        display: none; }
-      .site-nav:hover .trigger {
-        display: block;
-        padding-bottom: 5px; }
-      .site-nav .page-link {
-        display: block;
-        padding: 5px 10px; } }
 
 /**
  * Site footer
@@ -329,33 +294,21 @@ pre {
   margin-bottom: 30px; }
 
 .post-title {
-  font-size: 42px;
+  font-size: 2.6rem;
   letter-spacing: -1px;
   line-height: 1;
   font: 700 4rem Lato, Helvetica, Arial, "sans-serif";
   color: #b56464;
   text-align: center; }
-  @media screen and (max-width: 800px) {
-    .post-title {
-      font-size: 36px; } }
 
 .post-content {
   margin-bottom: 30px; }
   .post-content h2 {
     font-size: 32px; }
-    @media screen and (max-width: 800px) {
-      .post-content h2 {
-        font-size: 28px; } }
   .post-content h3 {
-    font-size: 26px; }
-    @media screen and (max-width: 800px) {
-      .post-content h3 {
-        font-size: 22px; } }
+    font-size: 1.8rem; }
   .post-content h4 {
     font-size: 20px; }
-    @media screen and (max-width: 800px) {
-      .post-content h4 {
-        font-size: 18px; } }
 
 /**
  * Syntax highlighting styles
@@ -495,3 +448,54 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+@media screen and (max-width: 800px) {
+  .post-content h2 {
+    font-size: 28px; } }
+@media screen and (max-width: 800px) {
+  .post-content h3 {
+    font-size: 1.375rem; } }
+@media screen and (max-width: 800px) {
+  .post-content h4 {
+    font-size: 18px; } }
+
+@media screen and (max-width: 800px) {
+  .post-title {
+    font-size: 2.25rem; } }
+
+@media screen and (max-width: 600px) {
+  .site-header {
+    padding-top: 0; } }
+
+@media screen and (max-width: 600px) {
+  .site-nav {
+    position: absolute;
+    top: 9px;
+    left: 30px;
+    background-color: #fdfdfd;
+    border: 1px solid #afafaf;
+    border-radius: 5px;
+    text-align: left;
+    margin-top: 0; }
+    .site-nav .menu-icon {
+      display: block;
+      float: left;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center; }
+      .site-nav .menu-icon > svg {
+        width: 18px;
+        height: 15px; }
+        .site-nav .menu-icon > svg path {
+          fill: #090909; }
+    .site-nav .trigger {
+      clear: both;
+      display: none; }
+    .site-nav:hover .trigger {
+      display: block;
+      padding-bottom: 5px; }
+    .site-nav .page-link {
+      display: block;
+      padding: 5px 10px; } }
