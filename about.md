@@ -7,7 +7,7 @@ permalink: /about/
 ### - About Me # 
 
 I am only a front-end developer for the coming months. After that I 
-will hopefully be a full stack front-end developer and a decent 
+will hopefully be a full stack developer and a decent 
 clojure programmer.
 
 I am 22 and pursuing a B.E in Computer Sciences. I grew up in Srinagar,
@@ -36,7 +36,7 @@ frameworks like [Jeet]/Singularity to make mobile-first and responsive websites.
 I prefer writing CSS using [Stylus] and [SASS] (although I find Stylus much more
 powerful than SASS) and use JS as the scripting language. 
 
-I also have some experience working with Node and writing apps/websites in Node.js.
+I also have some experience working with making apps/websites in Node.js and Ruby on Rails.
 
 <br />
 <br />
