@@ -8,7 +8,7 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 
-}   
+}
 
 
 
@@ -29,6 +29,11 @@
 
 // New CSS start
 
+.cogs {
+    float: right;
+    width: 80px;
+}
+
 .adam-photo {
     border-radius: 999px;
     height:150px;
@@ -36,14 +41,14 @@
 }
 
 .scrnshts  {
-    @include border-radius(8px); 
+    @include border-radius(8px);
     @include box-shadow(1px, 26px, 100px, -30px, #000);
 }
 
 .svg-icon-list {
     margin: auto;
     padding: 0;
-    text-align: center;    
+    text-align: center;
 }
 
 .social-icons {
@@ -84,7 +89,7 @@
 
     ul{
         padding:0;
-        margin:0;   
+        margin:0;
     }
 
         .nav-links {
@@ -98,7 +103,7 @@
             }
         }
 
-    
+
 }
 
 
@@ -230,7 +235,7 @@
 
     h2 {
         font-size: 32px;
-        }   
+        }
 
     h3 {
         font-size: 1.8rem;

@@ -158,6 +158,10 @@ pre {
   .site-title, .site-title:visited {
     color: #090909; }
 
+.cogs {
+  float: right;
+  width: 80px; }
+
 .adam-photo {
   border-radius: 999px;
   height: 150px;

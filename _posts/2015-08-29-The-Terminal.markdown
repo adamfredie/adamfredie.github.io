@@ -6,7 +6,7 @@ categories: review
 ---
 
 #Command line through the Terminal
-	
+
 <br />
 
 #####Note - All commands in this post are from an Ubuntu machine and may or may not work on other Linux distros.
@@ -17,7 +17,7 @@ categories: review
 
 <br />
 
-Linux is a great OS for a developer. It's great for your coding needs and comes with a lot of features which you require for writing code. I am probably very, very late in interacting with a Unix-like system but it's better late than never. 
+Linux is a great OS for a developer. It's great for your coding needs and comes with a lot of features which you require for writing code. I am probably very, very late in interacting with a Unix-like system but it's better late than never.
 
 In this post, I have written about my experience so far with one of Linux's most important tools, the Terminal.
 
@@ -37,7 +37,7 @@ In this post, I have written about my experience so far with one of Linux's most
 
 The use case of a terminal is different from how one would use a GUI. With GUI, you get a more detailed layout where the graphics are self-explanatory. Because of that you can make a more complex interface for users to interact with.
 
-With command line, since there are no visuals for a layout, you do your work by just running text-based commands in the terminal window and get an output right there. 
+With command line, since there are no visuals for a layout, you do your work by just running text-based commands in the terminal window and get an output right there.
 
 <br />
 
@@ -47,7 +47,7 @@ With command line, since there are no visuals for a layout, you do your work by 
 
 ### What and How?
 
-A terminal is basically a plain window with text and a blinking cursor and what you do with just those elements is what it's all about. Honestly, this scared me initially because I simply had no idea about how it worked. My mind would ask questions like - 
+A terminal is basically a plain window with text and a blinking cursor and what you do with just those elements is what it's all about. Honestly, this scared me initially because I simply had no idea about how it worked. My mind would ask questions like -
 
 - What do I do, there's nothing to click!
 - How do I find files with this thing?
@@ -90,7 +90,7 @@ The `sudo apt-get update` command will check all your listed repos and update al
 
 <br />
 
-<img src="/images/sudo-update.jpg" class="scrnshts" />   
+<img src="/images/sudo-update.jpg" class="scrnshts" />
 
 <br />
 <br />
@@ -118,11 +118,11 @@ For example, as a web developer, you may have to lookup the whois database some 
 (Although you will need to install the 'whois' package first)
 
 
-What if you have to work in Node and use Stylus for your CSS? No problemo! 
+What if you have to work in Node and use Stylus for your CSS? No problemo!
 
-	
 
-Just run `sudo apt-get install nodejs` & `npm install stylus -g`. 
+
+Just run `sudo apt-get install nodejs` & `npm install stylus -g`.
 
 
 **[NPM](npmjs.com)** (_Node Package Manager_) is another utility which keeps track of your package versions and updates them.
@@ -136,7 +136,7 @@ If you are a developer or an indivisual who wants to write code, irrespective of
 
 Just like there are best practice methods about using such and such languages, using the terminal is also a best practice method for any good programmer.
 
-Besides, if you really want to be a good programmer, you can't escape the terminal. For every programming language (**_JavaScript_**), it's frameworks (**_Node_**), it's libraries (**_Express_**) and everything else are installed through a terminal. 
+Besides, if you really want to be a good programmer, you can't escape the terminal. For every programming language (**_JavaScript_**), it's frameworks (**_Node_**), it's libraries (**_Express_**) and everything else are installed through a terminal.
 
 You just need to start with the basics (there is lot of documentation for setting up and getting started with a command line) and soon you''ll be installing languages, editing files, running servers and downloading videos from YouTube in no time!
 
