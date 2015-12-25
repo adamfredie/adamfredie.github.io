@@ -6,9 +6,8 @@ permalink: /about/
 
 ### - About Me # 
 
-I am only a front-end developer for the coming months. After that I 
-will hopefully be a full stack developer and a decent 
-clojure programmer.
+I am a front-end developer and
+will hopefully be a full stack developer quite soon.
 
 I am 22 and pursuing a B.E in Computer Sciences. I grew up in Srinagar,
 Kashmir and currently live in Chandigarh
@@ -23,8 +22,8 @@ Slack and a terminal. (And a mixtape on infinite loop).
 
 
 I write most of my front-end code using new and trusted web 
-standards. I have comdemned bootstrap and instead use other and more flexible
-frameworks like [Jeet]/Singularity to make mobile-first and responsive websites.
+standards. I prefer using more flexible
+frameworks like [Jeet]/Singularity to make mobile-first and responsive websites instead of Bootstrap.
 
  
 <br />
