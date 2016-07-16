@@ -314,6 +314,27 @@ pre {
   .post-content h4 {
     font-size: 20px; }
 
+.contact-form-input, .contact-form-message {
+  padding: 2rem;
+  margin: 1rem;
+  display: block;
+  margin-left: 0;
+  width: 70%;
+  border: 1px solid rgba(187, 187, 187, 0.24);
+  color: #000 !important; }
+  .contact-form-input::-webkit-input-placeholder, .contact-form-message::-webkit-input-placeholder {
+    color: #bbb; }
+
+.contact-form-button {
+  background: #b56464;
+  color: #FFF;
+  padding: 2rem;
+  margin: 1rem 1rem 1rem 0;
+  display: block;
+  border: 1px solid rgba(187, 187, 187, 0.24); }
+  .contact-form-button:hover {
+    cursor: pointer; }
+
 /**
  * Syntax highlighting styles
  */
