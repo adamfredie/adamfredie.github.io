@@ -6,11 +6,12 @@ permalink: /about/
 
 ### - About Me # 
 
-I am a front-end developer and
-will hopefully be a full stack developer quite soon.
 
-I am 22 and pursuing a B.E in Computer Sciences. I grew up in Srinagar,
-Kashmir and currently live in Chandigarh
+I am a Computer Science Engineer and a Web Developer with 3+ yrs of experience & a passion for web standards. 
+My work includes using best–practice techniques to deliver fast, 
+responsive & mobile-first websites with good web typography & UI/UX design. 
+I love & support all things UNIX/Open Source. 
+
 
 <br />
 <br />
@@ -33,7 +34,7 @@ frameworks like [Jeet]/Singularity to make mobile-first and responsive websites 
 
 
 I prefer writing CSS using [Stylus] and [SASS] (although I find Stylus much more
-powerful than SASS) and use JS as the scripting language. 
+powerful than SASS) and use JS as the scripting language for DOM manipulation. 
 
 I also have some experience working with making apps/websites in Node.js and Ruby on Rails.
 
