@@ -1,6 +1,7 @@
 body {
 	background: url(shimla.jpg) no-repeat center center fixed;
 	background-size: cover;
+	background-attachment: fixed;
 }
 body::before {
 	content: '';
