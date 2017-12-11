@@ -7,7 +7,7 @@ permalink: /about/
 ### - About Me # 
 
 
-I am a Computer Science Engineer and a Web Developer with 3+ yrs of experience & a passion for web standards. 
+I am a Computer Science Engineer and a Web Developer with 4+ yrs of experience & a passion for web standards. 
 My work includes using best–practice techniques to deliver fast, 
 responsive & mobile-first websites with good web typography & UI/UX design. 
 I love & support all things UNIX/Open Source. 
