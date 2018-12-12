@@ -1,23 +1,76 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<meta name="author" content="Adam Fredie" />
+    <meta name="description" content="adam portfolio blog contact design communities aiesec" />
+    <meta name="keywords"  content="adam portfolio blog design ui/ux aiesec communities" />
+	<meta name="Resource-type" content="Document" />
+	<title>Adam | Communities & Design</title>
+	<style>
+		body {
+			font-family:'Avenir Next', sans-serif;
+		}
+		.name h1 {
+			font-size:110px;
+			color:#037EF3;
+			text-transform:uppercase;
+			font-weight:800;
+			margin-top:20px;
+		}
+		nav a {
+			font-weight: 800;
+    	font-size: 80px;
+    	display: inline-block;
+    	line-height:1.2;
+    	transition:.1s ease-in all;
+		}
+		nav a:hover {
+			color:#CE201E;
+			text-decoration:none;
+			transition:.1s ease-out all;
+		}
+		.about {
+			float:right;
+		}
+		.nav {
+			float:left;
+			margin-left:5px;
+		}
+		p {
+			font-size:22px;
+		}
+		.content {
+			margin-top:180px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<div class="container">
+			<div class="col-md-12">
+				<div class="name">
+					<h1>Adam</h1>
+				</div>
+			</div>
+			<div class="content">
+				<div class="col-md-5 about">
+					<p>Hi, I’m Adam.
+						I am a front-end developer turned UI/UX designer and business analyst. I have served as the head of Business Development & Marketing for a chapter of AIESEC.
+					</p>
+					<p>I am passionate about music, my work and communities all around the world that work together. I have a set of values that I live by.
+					</p>
+				</div>
+				<div class="col-md-4 nav">
+					<nav>
+						<a href="https://medium.com/@adamfredie" class="nav-item">Blog</a>
+						<a href="#" class="nav-item">Portfolio</a>
+						<a href="#" class="nav-item">Contact</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
