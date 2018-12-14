@@ -80,7 +80,7 @@ This wasn't always the case though. Earlier, I was scared of trying new things. 
 
 <br />
 
-###How does it work?
+### How does it work?
 
 
 <svg class="cogs" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
