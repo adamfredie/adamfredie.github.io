@@ -13,7 +13,7 @@
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 	<!-- <link rel="shortcut icon" type="image/png" href="http://example.com/favicon.png"/> -->
 	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> -->
-	<title>Adam | Communities & Design</title>
+	<title>Adam / Communications & Design</title>
 	<style>
 
 		@font-face {
@@ -36,19 +36,22 @@
 			font-family:'Avenir Next Heavy', sans-serif
 		}
 		nav a {
-			font-weight: 800;
-    	font-size: 60px;
-    	display: block;
-    	line-height:1.2;
+			font-weight: 500;
+    	font-size: 22px;
+    	display: inline-block;
+    	line-height:1.6;
     	transition:.1s ease-in all;
     	color:#037ef3;
-    	text-decoration:none;
-    	font-family:'Avenir Next Heavy', sans-serif
+    	text-decoration:underline;
+    	font-family:'Avenir Next', sans-serif
 		}
 		nav a:hover {
 			color:#CE201E;
 			text-decoration:none;
 			transition:.1s ease-out all;
+		}
+		nav .main-work{
+			margin:0;
 		}
 		.about {
 			/* float:right; */
@@ -59,7 +62,7 @@
 		}
 		p {
 			font-size:22px;
-			font-family:'Avenir Next Medium', sans-serif;
+			font-family:'Avenir Next', sans-serif;
 		}
 		.content {
 			/* margin-top:180px; */
@@ -67,13 +70,14 @@
 		.skeleton {
 			width:60%;
 			margin:auto;
+			text-align:left;
 		}
 		.col-12 {
 			width:100%;
 		}
 		.col-8 {
-			width:80%;
-			margin:auto;
+			/* width:80%; */
+			/* margin:auto; */
 		}
 		.col-5 {
 			width:45%;
@@ -136,18 +140,22 @@
 		}
 		.social a {
 			display:inline;
-			font-size:40px;
-			margin:0 10px;
+			font-size:22px;
+			text-decoration:underline;
+			/* margin:0 10px; */
 		}
 		.social a:hover {
 			color:#CE201E;
 			text-decoration:none;
 			transition:.1s ease-out all;
 		}
+		.more-about {
+			margin-bottom:40px;
+		}
 	</style>
 </head>
 <body>
-	<div>
+	<div style="display:flex;">
 		<div class="skeleton">
 			<div class="col-12">
 				<div class="name">
@@ -156,21 +164,25 @@
 			</div>
 			<div class="content">
 				<div class="col-8 about">
-					<p>Hi, <span class="pur"><a href="/me.html">more about me</a></span>.
-						<!-- I am a former Front-end Developer turned UI/UX designer and Digital Marketing Manager. I have served as the head of Business Development & Marketing for a chapter of <span class="bloo"><a href="https://aiesec.org">AIESEC</a></span>. I am currently working on digital marketing & building online communities for <span class="bloo"><a href="https://netsolutions.com">Net Solutions</a></span>. -->
-					</p>
-					<!-- <p>I am passionate about music, my work and communities all around the world that work together. I have a set of values that I live by.
-					</p> -->
+					<p>Hi, I'm <span class="pur" style="font-weight:600;">Adam</span>.</p>
+					<p>I'm a <span class="pur">comupter science engineer</span> and <span class="pur">marketer</span> (in tech) - editing & designing creative content that communicates to/for enterprises.</p>
+					<p>Previously: Front-end Developer & UI Designer.</p>
+					<p class="more-about"><span class="pur"><a href="me.html">Read more about me</a></span>.
+					
+				
 				</div>
 				<div class="full nav">
 					<nav>
-						<a href="https://medium.com/@whackyapple" class="nav-item">Blog</a>
-						<a href="https://instagram.com/puppetsontheloose" class="nav-item">Loose Puppets</a>
-						<a href="https://www.behance.net/whacky" class="nav-item">Portfolio</a>
-						<div class="social">
-							<a href="https://twitter.com/adamfredie" style="color:#00acee;">Tw</a>
-							<a href="https://www.linkedin.com/in/adamfredie/" style="color:#0e76a8;">Ln</a>
-						</div>
+						<p class="main-work">👨‍💻 <a href="/work.html" class="nav-item"> Check out my work.</a></p>
+						<p class="main-work">✍️ <a href="https://medium.com/@whackyapple" class="nav-item"> I also write about marketing and stuff.</a></p>
+						<p class="main-work">🎸 <a href="https://instagram.com/loosepuppets" class="nav-item"> Latest from my rock band, Loose Puppets</a></p>
+
+						<p class="social">
+							Find me on <a href="https://twitter.com/adamfredie" style="color:#00acee;">Twitter</a>, and <a href="https://www.linkedin.com/in/adamfredie/" style="color:#0e76a8;">LinkedIn</a>.
+						</p>
+						<p class="">
+							Email me at <a style="display:inline" href="mailto:whackyapple@gmail.com" style="color:#00acee;">whackyapple@gmail.com.</a>
+						</p>
 					</nav>
 				</div>
 			</div>
